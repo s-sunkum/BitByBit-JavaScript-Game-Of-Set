@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='stylesheets/style.css'>
+    </head>
+    <body>
+        <h1 class="title">Welcome To The Game Of Set</h1>
+        <div class="center">
+            <p class="rules"><strong>Rules:</strong>
+                The deck consists of 81 unique cards that vary in four features with three possibilities 
+                for each feature. Number of shapes (one, two, or three), shape (diamond, squiggle, oval), shading 
+                (solid, striped, or open), and color (red, green, or purple). In the game, certain combinations of 
+                three cards make up a set. So what defines a set? Of the three cards chosen, each category must be 
+                all the same or all different. To clarify this, we can see an example. 3 solid red diamonds, 2 solid 
+                green squiggles, and 1 solid purple oval forms a set because the numbers in each card are all different, 
+                the shading in each card is all the same, the color in each card is all the same, and the shape in each 
+                card is all different.</p>
+            <form id="form1">
+                Number Of Players: <input type="text" name="numOfPlayers">
+                <input type="button" value="Enter" onclick="getInfo()">
+            </form>
+            <div id="playerInfo">
+
+            </div>
+        </div>
+    </body>
+    <script src="lib/script.js"></script>
+</html>

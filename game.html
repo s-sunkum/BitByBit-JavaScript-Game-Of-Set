@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' href='stylesheets/style.css'>
+</head>
+
+<body onload="startGame()">
+    <div class="container">
+        <div class="title">
+            <h1>Set Game</h1>
+            <h1 id="trackCards"><h1>
+        </div>
+        <div class="subcontainer">
+            <div id="leftpanel">
+                <div class="title" id="rules">
+                    <h2>Click on your name below when you have found a set!</h2>
+                </div>
+                <div id="players">
+
+                </div>
+                <div id="message">
+                    
+                </div>
+            </div>
+            <div id="cards">
+
+            </div>
+            <div id="options">
+                <button id="hint" onclick="hint()">HINT</button>
+                <br>
+                <br>
+                <button id="quit" onclick="quit()">END GAME</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="lib/script.js"></script>
+
+</html>
